@@ -2,7 +2,7 @@
   name = LouisNuh
 	email = 2026841190@qq.com
 [credential]
-  helper = store --file ~/.config//git/.git-credentials
+  helper = store --file ~/.config/git/.git-credentials
   helper = cache --timeout 30000
 [init]
 	defaultBranch = main
