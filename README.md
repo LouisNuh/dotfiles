@@ -8,6 +8,10 @@ My config of nvim,which is used to write code and tex.The pdf reader is zathura 
 ```shell
 sudo rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 ```
+## install support
+```shell
+sudo apt-get install python3-venv python3-pip
+```
 
 ## install neovim and support
 ```shell
