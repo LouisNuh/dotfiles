@@ -49,3 +49,36 @@ dowload the install-package from web.
 tar -zxvf anaconda-***.tar.gz
 ./Anaconda-***.sh
 ```
+
+# if meet error "E5108:Error executing lua ~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/ui.lua:attempt to index local 'ret'(a nil value)"
+
+```lua
+function M.get_signs(buf, lnum)
+  -- Get regular signs
+  ---@type Sign[]
+  local signs = vim.tbl_map(function(sign)
+    ---@type Sign
+    local ret = vim.fn.sign_getdefined(sign.name)[1]
+    if ret ~= nil then --------------| Lines in Question
+      ret.priority = sign.priority --|
+      return ret                   --|
+    end -----------------------------|
+  end, vim.fn.sign_getplaced(buf, { group = "*", lnum = lnum })[1].signs)
+
+  -- Get extmark signs
+  local extmarks = vim.api.nvim_buf_get_extmarks(
+    buf,
+    -1,
+    { lnum - 1, 0 },
+    { lnum - 1, -1 },
+    { details = true, type = "sign" }
+  )
+  for _, extmark in pairs(extmarks) do
+    signs[#signs + 1] = {
+      name = extmark[4].sign_hl_group or "",
+      text = extmark[4].sign_text,
+      texthl = extmark[4].sign_hl_group,
+      priority = extmark[4].priority,
+    }
+  end
+```
