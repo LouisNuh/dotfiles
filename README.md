@@ -50,7 +50,9 @@ tar -zxvf anaconda-***.tar.gz
 ./Anaconda-***.sh
 ```
 
-# if meet error "E5108:Error executing lua ~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/ui.lua:attempt to index local 'ret'(a nil value)"
+# error fix
+
+if meet error "E5108:Error executing lua ~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/util/ui.lua:attempt to index local 'ret'(a nil value)",go to this file and add next line in this file.
 
 ```lua
 function M.get_signs(buf, lnum)
