@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# update local repositories
+git pull
+
 # add dir to local repositories
 git add .
 

@@ -1,0 +1,5 @@
+# set latexmk to use xelatex, and always generate pdf
+$pdflatex = "xelatex %O %S";
+$pdf_mode = 1;
+#set output directory
+$out_dir = '.build';

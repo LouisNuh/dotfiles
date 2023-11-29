@@ -1,2 +1,5 @@
+# 设置自动同步
 set synctex true
 set synctex-editor-command "nvr --remote-silent %f -c %l"
+#以宽度自适应打开
+set adjust-open "width"
