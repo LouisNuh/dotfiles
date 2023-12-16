@@ -21,7 +21,8 @@ sudo apt install neovim gcc g++ make
 ```
 
 ## install copilot support
-Download from web https://nodejs.org/en/download/
+Download nodejs install package from https://nodejs.org/en/download/ and install by next commands.
+
 ```shell
 sudo apt install python3 make python3-pip 
 tar -zxvf node-***.tar.gz
@@ -44,7 +45,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 
 # install anaconda
-dowload the install-package from web.
+Dowload the install-shell from https://www.anaconda.com/download/.
+
 ```shell
 tar -zxvf anaconda-***.tar.gz
 ./Anaconda-***.sh
