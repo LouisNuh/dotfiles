@@ -142,6 +142,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # >>> Add Tex Live to the PATH,MANPATH,INFOPATH >>>
-export PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
-export MANPATH=/usr/local/texlive/2021/texmf-dist/doc/man:$MANPATH
-export INFOPATH=/usr/local/texlive/2021/texmf-dist/doc/info:$INFOPATH
+export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH
+
