@@ -184,3 +184,21 @@ For suggestions or issues, please submit an Issue or Pull Request in the reposit
 ---
 
 **License Note / 许可说明**: 本模板基于仓库中的现有文件创建，遵循仓库的许可协议。推荐的开源字体（Noto Sans CJK）遵循 SIL Open Font License。
+
+## 参考截图 / Reference Screenshots
+
+原始演示文稿的截图参考（用户提供）：
+
+**Screenshot 1 - Simplified Layout:**
+![Reference Screenshot 1](https://github.com/user-attachments/assets/92355ed7-27a9-4368-97d2-7b1f619368a5)
+
+**Screenshot 2 - Full Slide with Details:**
+![Reference Screenshot 2](https://github.com/user-attachments/assets/14719f49-9372-4584-82cd-a5f146a00792)
+
+这些截图展示了科技商业风格的关键元素：
+- 清晰的蓝色边框文本框
+- 简洁的白色背景
+- 专业的Q=P_fus/P_ext公式展示
+- 科学挑战和工程挑战的对比布局
+- 底部深蓝色强调条
+
