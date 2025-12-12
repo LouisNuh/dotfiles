@@ -85,17 +85,29 @@ Template includes the following slide types:
 - **标题区高度 / Title Area Height**: 约 2-2.5 cm
 - **内容区间距 / Content Area Spacing**: 0.5-1 cm
 
+## 原始设计参考 / Original Design Reference
+
+本模板基于以下原始截图进行设计：
+This template is designed based on the following original screenshot:
+
+**原始截图 URL / Original Screenshot URL**: 
+https://github.com/user-attachments/assets/5f531a60-d82c-4ec6-b4bb-9132289d821a
+
 ## 文件说明 / File Description
 
 ```
 presentations/tech-business/
 ├── tech-business-template.pptx   # 主模板文件 / Main template file
+├── tech-business-template.potx   # PowerPoint 模板格式 / PowerPoint template format
 ├── preview.png                    # 预览图 / Preview image
-├── original-screenshot.png        # 原始截图 / Original screenshot
+├── original-screenshot.png        # 原始截图占位符 / Original screenshot placeholder
 ├── README.md                      # 本说明文件 / This README
 ├── generate_template.py           # 生成脚本 / Generation script
 └── generate_preview.py            # 预览生成脚本 / Preview generation script
 ```
+
+**注意 / Note**: `original-screenshot.png` 为占位符图片。实际原始截图请参考上方 URL。
+The `original-screenshot.png` is a placeholder. Please refer to the URL above for the actual original screenshot.
 
 ## 变更记录 / Change Log
 
