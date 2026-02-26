@@ -3,6 +3,16 @@
 My config of nvim,which is used to write code and tex.The pdf reader is zathura
 and the code complete is github's copolit.
 
+## Contents
+
+- **nvim**: Neovim configuration files
+- **zsh**: Zsh shell configuration
+- **git**: Git configuration
+- **latexmk**: LaTeX configuration
+- **zathura**: PDF reader configuration
+- **presentations**: Presentation templates
+  - **tech-business**: Professional tech-business PowerPoint template with modern flat design
+
 ## Usage
 
 ### remove the date out of date
